@@ -6,6 +6,30 @@ output:
 ---
 # Loading and preprocessing the data
 
+```r
+library(dplyr)
+```
+
+```
+## 
+## Attaching package: 'dplyr'
+```
+
+```
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+```r
+df<-read.csv("./repdata_data_activity/activity.csv")
+```
 
 
 # What is mean total number of steps taken per day?
